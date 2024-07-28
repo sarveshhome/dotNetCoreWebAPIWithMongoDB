@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "p4MnNkTyXcsqxiWj47G/8Sw8fcoaqyQ/rgIJiksBTC4=",
+  "Source": "dotNetCoreWebAPIWithMongoDB",
+  "BasePath": "_content/dotNetCoreWebAPIWithMongoDB",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
