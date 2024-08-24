@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "1WTwGcS4F7i9MtZXy9hCjlEQd/e36XsLhBGRtfjEKa8=",
+  "Hash": "aRTUxdNPUoe8zOs9j2M1P8F06Kg0aSLdZmsTXN5Dauk=",
   "Source": "dotNetCoreWebAPIWithMongoDB",
   "BasePath": "_content/dotNetCoreWebAPIWithMongoDB",
   "Mode": "Default",
@@ -11,10 +11,10 @@
       "Version": 2,
       "Source": "KafkaConsumerService",
       "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
-      "AdditionalPublishProperties": "",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
       "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",
       "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
-      "AdditionalBuildProperties": "",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
       "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
     },
     {
@@ -22,10 +22,10 @@
       "Version": 2,
       "Source": "KafkaPublisherService",
       "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
-      "AdditionalPublishProperties": "",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
       "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",
       "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
-      "AdditionalBuildProperties": "",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
       "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
     }
   ],
