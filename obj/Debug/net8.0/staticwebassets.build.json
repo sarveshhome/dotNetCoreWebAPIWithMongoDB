@@ -1,11 +1,34 @@
 {
   "Version": 1,
-  "Hash": "p4MnNkTyXcsqxiWj47G/8Sw8fcoaqyQ/rgIJiksBTC4=",
+  "Hash": "1WTwGcS4F7i9MtZXy9hCjlEQd/e36XsLhBGRtfjEKa8=",
   "Source": "dotNetCoreWebAPIWithMongoDB",
   "BasePath": "_content/dotNetCoreWebAPIWithMongoDB",
   "Mode": "Default",
   "ManifestType": "Build",
-  "ReferencedProjectsConfiguration": [],
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "/Users/sarveshkumar/Practice/NetCore/dotnetCoreWebAPIWithMongoDB/KafkaConsumerService/KafkaConsumerService.csproj",
+      "Version": 2,
+      "Source": "KafkaConsumerService",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
+    },
+    {
+      "Identity": "/Users/sarveshkumar/Practice/NetCore/dotnetCoreWebAPIWithMongoDB/KafkaPublisherService/KafkaPublisherService.csproj",
+      "Version": 2,
+      "Source": "KafkaPublisherService",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
+    }
+  ],
   "DiscoveryPatterns": [],
   "Assets": []
 }

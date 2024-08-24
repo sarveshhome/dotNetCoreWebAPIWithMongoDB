@@ -1,12 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "X19uEAZ/VJidvH7S7+fd2STNsQyrHfrabWni8d91hM5v8Q4XdyNKybGz5xy9bguPWhQm7lAZPPRRTX5jhyU+BQ==",
+  "dgSpecHash": "AefCnv8YYcwC5kzt3lZVPYPzWzKfbiBR2pyJ/b4EzUMMlgaHObuKcadr/JOF15LYr9LBE0U4+3plqMqqY0lUHw==",
   "success": true,
   "projectFilePath": "/Users/sarveshkumar/Practice/NetCore/dotnetCoreWebAPIWithMongoDB/dotNetCoreWebAPIWithMongoDB/dotNetCoreWebAPIWithMongoDB.csproj",
   "expectedPackageFiles": [
     "/Users/sarveshkumar/Documents/confluent-7.5.0/.nuget/packages/awssdk.core/3.7.100.14/awssdk.core.3.7.100.14.nupkg.sha512",
     "/Users/sarveshkumar/Documents/confluent-7.5.0/.nuget/packages/awssdk.securitytoken/3.7.100.14/awssdk.securitytoken.3.7.100.14.nupkg.sha512",
+    "/Users/sarveshkumar/Documents/confluent-7.5.0/.nuget/packages/confluent.kafka/2.5.2/confluent.kafka.2.5.2.nupkg.sha512",
     "/Users/sarveshkumar/Documents/confluent-7.5.0/.nuget/packages/dnsclient/1.6.1/dnsclient.1.6.1.nupkg.sha512",
+    "/Users/sarveshkumar/Documents/confluent-7.5.0/.nuget/packages/librdkafka.redist/2.5.0/librdkafka.redist.2.5.0.nupkg.sha512",
     "/Users/sarveshkumar/Documents/confluent-7.5.0/.nuget/packages/microsoft.aspnetcore.openapi/8.0.2/microsoft.aspnetcore.openapi.8.0.2.nupkg.sha512",
     "/Users/sarveshkumar/Documents/confluent-7.5.0/.nuget/packages/microsoft.entityframeworkcore/8.0.7/microsoft.entityframeworkcore.8.0.7.nupkg.sha512",
     "/Users/sarveshkumar/Documents/confluent-7.5.0/.nuget/packages/microsoft.entityframeworkcore.abstractions/8.0.7/microsoft.entityframeworkcore.abstractions.8.0.7.nupkg.sha512",

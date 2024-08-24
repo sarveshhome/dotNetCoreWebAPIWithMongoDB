@@ -26,7 +26,14 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "/Users/sarveshkumar/Practice/NetCore/dotnetCoreWebAPIWithMongoDB/KafkaConsumerService/KafkaConsumerService.csproj": {
+                "projectPath": "/Users/sarveshkumar/Practice/NetCore/dotnetCoreWebAPIWithMongoDB/KafkaConsumerService/KafkaConsumerService.csproj"
+              },
+              "/Users/sarveshkumar/Practice/NetCore/dotnetCoreWebAPIWithMongoDB/KafkaPublisherService/KafkaPublisherService.csproj": {
+                "projectPath": "/Users/sarveshkumar/Practice/NetCore/dotnetCoreWebAPIWithMongoDB/KafkaPublisherService/KafkaPublisherService.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -55,6 +62,158 @@
             "MongoDB.Driver": {
               "target": "Package",
               "version": "[2.28.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.201/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/sarveshkumar/Practice/NetCore/dotnetCoreWebAPIWithMongoDB/KafkaConsumerService/KafkaConsumerService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/sarveshkumar/Practice/NetCore/dotnetCoreWebAPIWithMongoDB/KafkaConsumerService/KafkaConsumerService.csproj",
+        "projectName": "KafkaConsumerService",
+        "projectPath": "/Users/sarveshkumar/Practice/NetCore/dotnetCoreWebAPIWithMongoDB/KafkaConsumerService/KafkaConsumerService.csproj",
+        "packagesPath": "/Users/sarveshkumar/Documents/confluent-7.5.0/.nuget/packages/",
+        "outputPath": "/Users/sarveshkumar/Practice/NetCore/dotnetCoreWebAPIWithMongoDB/KafkaConsumerService/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/sarveshkumar/Documents/confluent-7.5.0/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Confluent.Kafka": {
+              "target": "Package",
+              "version": "[2.5.2, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.201/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/sarveshkumar/Practice/NetCore/dotnetCoreWebAPIWithMongoDB/KafkaPublisherService/KafkaPublisherService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/sarveshkumar/Practice/NetCore/dotnetCoreWebAPIWithMongoDB/KafkaPublisherService/KafkaPublisherService.csproj",
+        "projectName": "KafkaPublisherService",
+        "projectPath": "/Users/sarveshkumar/Practice/NetCore/dotnetCoreWebAPIWithMongoDB/KafkaPublisherService/KafkaPublisherService.csproj",
+        "packagesPath": "/Users/sarveshkumar/Documents/confluent-7.5.0/.nuget/packages/",
+        "outputPath": "/Users/sarveshkumar/Practice/NetCore/dotnetCoreWebAPIWithMongoDB/KafkaPublisherService/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/sarveshkumar/Documents/confluent-7.5.0/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Confluent.Kafka": {
+              "target": "Package",
+              "version": "[2.5.2, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[8.0.2, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
