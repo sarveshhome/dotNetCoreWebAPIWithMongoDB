@@ -1,5 +1,6 @@
 using DotNetCoreWebAPIWithMongoDB.Models;
 using DotNetCoreWebAPIWithMongoDB.Serivecs;
+using KafkaPublisherService.Services;
 using Microsoft.AspNetCore.Mvc;
 
 
@@ -9,17 +10,27 @@ namespace DotNetCoreWebAPIWithMongoDB.Controllers
     [Route("api/[controller]")]
     public class StudentController : ControllerBase
     {
+        private readonly KafkaProducerService _kafkaProducerService;
+
         private readonly StudentService _studentService;
 
-        public StudentController(StudentService studentService)
+        public StudentController(StudentService studentService,KafkaProducerService kafkaProducerService)
         {
             _studentService = studentService;
+            _kafkaProducerService = kafkaProducerService;
         }
 
         [HttpPost]
         public async Task<IActionResult> CreateStudent(Student student)
         {
+            if (student == null)
+            {
+                return BadRequest();
+            }
             await _studentService.CreateStudent(student);
+            
+
+            await _kafkaProducerService.ProduceAsync("student-topic", student);
             return Ok();
         }
 

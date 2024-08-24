@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "AefCnv8YYcwC5kzt3lZVPYPzWzKfbiBR2pyJ/b4EzUMMlgaHObuKcadr/JOF15LYr9LBE0U4+3plqMqqY0lUHw==",
+  "dgSpecHash": "UIfFR18lngtsru6UHo3RjIIKGmsutCmrcaGp9VyEnqra697RtKhsQu3lQPEPms5X7Kjv3qqyTEeTL7Swzn+NqQ==",
   "success": true,
   "projectFilePath": "/Users/sarveshkumar/Practice/NetCore/dotnetCoreWebAPIWithMongoDB/dotNetCoreWebAPIWithMongoDB/dotNetCoreWebAPIWithMongoDB.csproj",
   "expectedPackageFiles": [
@@ -30,6 +30,7 @@
     "/Users/sarveshkumar/Documents/confluent-7.5.0/.nuget/packages/mongodb.driver/2.28.0/mongodb.driver.2.28.0.nupkg.sha512",
     "/Users/sarveshkumar/Documents/confluent-7.5.0/.nuget/packages/mongodb.driver.core/2.28.0/mongodb.driver.core.2.28.0.nupkg.sha512",
     "/Users/sarveshkumar/Documents/confluent-7.5.0/.nuget/packages/mongodb.libmongocrypt/1.11.0/mongodb.libmongocrypt.1.11.0.nupkg.sha512",
+    "/Users/sarveshkumar/Documents/confluent-7.5.0/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512",
     "/Users/sarveshkumar/Documents/confluent-7.5.0/.nuget/packages/sharpcompress/0.30.1/sharpcompress.0.30.1.nupkg.sha512",
     "/Users/sarveshkumar/Documents/confluent-7.5.0/.nuget/packages/snappier/1.0.0/snappier.1.0.0.nupkg.sha512",
     "/Users/sarveshkumar/Documents/confluent-7.5.0/.nuget/packages/swashbuckle.aspnetcore/6.4.0/swashbuckle.aspnetcore.6.4.0.nupkg.sha512",

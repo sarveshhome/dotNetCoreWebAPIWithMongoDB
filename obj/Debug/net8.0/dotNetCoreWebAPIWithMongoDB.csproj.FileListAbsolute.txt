@@ -83,3 +83,4 @@
 /Users/sarveshkumar/Practice/NetCore/dotnetCoreWebAPIWithMongoDB/dotNetCoreWebAPIWithMongoDB/bin/Debug/net8.0/KafkaPublisherService.dll
 /Users/sarveshkumar/Practice/NetCore/dotnetCoreWebAPIWithMongoDB/dotNetCoreWebAPIWithMongoDB/bin/Debug/net8.0/KafkaPublisherService.pdb
 /Users/sarveshkumar/Practice/NetCore/dotnetCoreWebAPIWithMongoDB/dotNetCoreWebAPIWithMongoDB/bin/Debug/net8.0/KafkaConsumerService.pdb
+/Users/sarveshkumar/Practice/NetCore/dotnetCoreWebAPIWithMongoDB/dotNetCoreWebAPIWithMongoDB/bin/Debug/net8.0/Newtonsoft.Json.dll
